@@ -1,0 +1,336 @@
+body {
+    background-color: (rgb(80, 13, 13));
+    height: auto;
+    width: 100%;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+    /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+
+header {
+    background-color: brown;
+    opacity: 0.8;
+    padding: 1px;
+    margin: auto;
+    width: 80%;
+    border: 1%;
+    padding: 2%;
+    text-align: center;
+    position: static;
+}
+
+.pulse-blue {
+    position: static;
+    background-color: #1da1f8;
+    width: 80px;
+    height: 80px;
+    flex-wrap: wrap;
+    border-radius: 100%;
+    border-width: 6px;
+    border: 8px solid #000;
+    border-color: rgba(116, 116, 116, 0.658);
+    margin: auto;
+    background: radial-gradient(#1da0f8e3, #0a86d8, #ced5da);
+}
+
+    /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+
+.flexsearch--wrapper {
+    height: auto;
+    width: 80%;
+    max-width: 100%;
+    overflow: hidden;
+    background: transparent;
+    margin: auto;
+    margin-top: -%;
+    border: 1%;
+    padding: 1%;
+    position: static;
+    text-align: center;
+}
+
+.flexsearch--form {
+    overflow: hidden;
+    position: relative;
+}
+
+.flexsearch--input-wrapper {
+    padding: 0 66px 0 0;
+    overflow: hidden;
+}
+
+.flexsearch--input {
+    width: 100%;
+}
+
+.flexsearch {
+    padding: 0 25px 0 200px;
+}
+
+.flexsearch--input {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 60px;
+    padding: 0 46px 0 10px;
+    border-color: #888;
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: auto;
+    color: #333;
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-align: start;
+}
+
+.flexsearch--submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    margin-top: 05px;
+    margin-right: 10px;
+    background: transparent;
+    color: #888;
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.flexsearch--input:focus {
+    outline: none;
+    border-color: rgb(0, 0, 0);
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+    color: #333;
+}
+
+.flexsearch--submit:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+input:-moz-placeholder {
+    color: #888;
+}
+
+    /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+
+main {
+    background-color: rgb(181, 194, 185);
+    opacity: 0.9;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 20%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    position: static;
+}
+
+.pagination {
+    padding: 0%;
+    text-align: center;
+    position: flex;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.page-item {
+    border: solid;
+    border-width: 4px;
+    border-radius: 2px;
+    background-color: #2ddd59;
+    padding: 2%;
+    position: flex;
+}
+
+.boton-pikachu {
+    position: flex;
+    width: 10;
+}
+
+    /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+
+section {
+    background-color: rgb(181, 194, 185);
+    opacity: 0.8;
+    margin: auto;
+    border: 4%;
+    width: 100%;
+    padding: 4%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: auto;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    opacity: 10;
+    border-radius: 25px;
+    border-width: 3%;
+    margin: 1%;
+    width: 10%;
+    border:outset;
+    border-image-slice: 1;
+    border-width: 20px;
+    padding: 2%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Courier New", Courier, monospace;
+    font-size: medium;
+}
+
+.container-pokemon {
+    display: flex;
+    position: sticky;
+    border: solid;
+    padding: 4%;
+    margin: auto;
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: none;
+    justify-content: center;
+    align-content: flex-start;
+    width: auto;
+    background-color: #5100ff;
+    height: 60vh;
+    overflow: auto;
+    flex-direction: auto;
+    border: 4%;
+    padding: 2%;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 8px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+    /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+
+aside {
+    background-color: rgb(182, 184, 153);
+    opacity: 0.8;
+    border-radius: 25px;
+    border-width: 3%;
+    margin: auto;
+    border: 1%;
+    padding: 6%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Courier New", Courier, monospace;
+    font-size: small;
+}
+
+.pulse-yellow {
+    position: sticky;
+    background: radial-gradient(#ffc400, #fffb00);
+    width: 40px;
+    height: 40px;
+    flex-wrap: wrap;
+    border-radius: 100%;
+    border: 4px solid #000;
+    border-color: rgba(116, 116, 116, 0.658);
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.pulse-green {
+    position: sticky;
+    background-color: #2ddd59;
+    background: radial-gradient(#00ff4052 #91dd2d);
+    width: 40px;
+    height: 40px;
+    flex-wrap: wrap;
+    border-radius: 100%;
+    border: 4px solid #000;
+    border-color: rgba(116, 116, 116, 0.658);
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.pulse-brown {
+    background-color: #31060652;
+    background: radial-gradient(#da0c0c52 #34441f);
+    width: 100%;
+    height: 20px;
+    border-radius: 2%;
+    position: relative;
+}
+
+.pulse-red {
+    position: sticky;
+    background-color: #ff0000;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #000;
+    border-color: rgba(116, 116, 116, 0.658);
+    margin: auto;
+    background: radial-gradient(#ff0000, #ff000078, #ced5da);
+}
+
+    /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+
+.pre-foot {
+    background-color: brown;
+    opacity: 0.8;
+    padding: 1px;
+    margin: auto;
+    width: 92%;
+    border: 1%;
+    padding: 2%;
+    text-align: center;
+    position: static;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: smaller;
+}
+
+footer {
+    padding: 1%;
+    margin: auto;
+    border: auto;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.global-footer {
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    background: linear-gradient(rgb(121, 20, 104), rgb(39, 16, 39), rgb(0, 0, 0));
+}
+
+.socialmedia {
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+    width: 100%;
+    text-align: center, bottom;
+    bottom: 0;
+}
+
+.image {
+    margin: auto;
+    width: 5%;
+}
