@@ -43,7 +43,7 @@ header {
     overflow: hidden;
     background: transparent;
     margin: auto;
-    margin-top: -%;
+    margin-top: 4%;
     border: 1%;
     padding: 1%;
     position: static;
@@ -221,6 +221,33 @@ section {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.container-pokemon-info {
+    display: flex;
+    position: sticky;
+    border: solid;
+    padding: 4%;
+    margin: auto;
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: none;
+    justify-content: center;
+    align-content: flex-start;
+    width: auto;
+    background-color: #28b336;
+    height: 20vh;
+    overflow: auto;
+    flex-direction: auto;
+    border: 4%;
+    padding: 2%;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 8px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
     /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
 
 aside {
@@ -285,14 +312,14 @@ aside {
     background: radial-gradient(#ff0000, #ff000078, #ced5da);
 }
 
-    /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+        /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
 
 .pre-foot {
     background-color: brown;
     opacity: 0.8;
     padding: 1px;
     margin: auto;
-    width: 92%;
+    width: 80%;
     border: 1%;
     padding: 2%;
     text-align: center;
@@ -321,23 +348,14 @@ footer {
     background: linear-gradient(rgb(121, 20, 104), rgb(39, 16, 39), rgb(0, 0, 0));
 }
 
-.socialmedia {
-    text-align: center;
-    padding: 1%;
-    margin: auto;
-    width: 100%;
-    text-align: center, bottom;
-    bottom: 0;
-}
-
 .image {
     margin: auto;
-    width: 5%;
+    width: 3%;
 }
-
-.image2 {
+.image2{
     margin: auto;
     width: 30%;
 }
+
 
     /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
