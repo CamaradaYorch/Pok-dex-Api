@@ -38,7 +38,7 @@ https://www.fbi.gov/wanted/api
 https://api.nasa.gov/
 https://rickandmortyapi.com/
 
-==================================================================================================================
+============================================================================================
 
 apps de productividad recomendadas:
 - trello (organizacion). Ejemplo de tablero:
@@ -47,7 +47,7 @@ apps de productividad recomendadas:
 
 - figma (diseño ui/ux)
 
-==================================================================================================================
+============================================================================================
 
 consejos para trabajar con git:
 - no tocar master/main, màs que para configurar el proyecto, crear las ramas y subir el proyecto completo
@@ -59,7 +59,7 @@ configuracion recomendada de ramas:
 - dev, Aquì se mezclan los cambios
 - ramaIntegrante1, ramaIntegrante2, ..., ramaIntegrante#N
 
-==================================================================================================================
+============================================================================================
 
 Tip: asigna roles y delega tareas.
 
