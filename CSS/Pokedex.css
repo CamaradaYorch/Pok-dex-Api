@@ -1,0 +1,247 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    line-height: normal;
+    overflow-y: scroll;
+}
+
+header {
+    background-color: rgb(165, 42, 42);
+    padding: 2%;
+    margin: auto;
+    width: 100%;
+    border: 1%;
+    padding: 2%;
+    text-align: center;
+    position: static;
+}
+
+main {
+    background-color: rgb(165, 42, 42);
+}
+
+        /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ Barra Búsqueda  ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+.flexsearch--wrapper {
+    height: auto;
+    width: 60%;
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 0%;
+    border: 1%;
+    padding: .5%;
+    position: static;
+    text-align: center;
+}
+
+.flexsearch--form {
+    overflow: hidden;
+    position: relative;
+}
+
+.flexsearch--input-wrapper {
+    padding: 0 66px 0 0;
+    overflow: hidden;
+}
+
+.flexsearch--input {
+    width: 100%;
+}
+
+.flexsearch {
+    padding: 0 25px 0 200px;
+}
+
+.flexsearch--input {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 60px;
+    padding: 0 46px 0 10px;
+    border-color: #888;
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: auto;
+    color: #333;
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-align: start;
+}
+
+.flexsearch--submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    margin-top: 05px;
+    margin-right: 10px;
+    background: transparent;
+    color: #888;
+    font-family: "Helvetica", sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.flexsearch--input:focus {
+    outline: none;
+    border-color: rgb(0, 0, 0);
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+    color: #333;
+}
+
+.flexsearch--submit:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+input:-moz-placeholder {
+    color: #888;
+}
+
+        /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ Diseño de Pokédex  ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+
+        .pokedex-body-icon {
+            position: absolute;
+            top: calc(50% - 376px);
+            left: calc(50% - 394.46px);
+            width: 787.64px;
+            height: 640px;
+        }
+
+        .poke-white-screen-icon {
+            position: absolute;
+            top: calc(50% - 198.91px);
+            left: calc(50% - 344.01px);
+            width: 273.93px;
+            height: 239.29px;
+        }
+
+        .next-icon,
+        .previous-icon {
+            position: absolute;
+            top: 564.97px;
+            left: 426.52px;
+            width: 460.95px;
+            height: 119.19px;
+        }
+
+        .next-icon {
+            top: 563.28px;
+            left: 531.14px;
+            width: 499.14px;
+            height: 119.1px;
+        }
+
+        .blue-buttons-icon {
+            position: absolute;
+            top: 450.55px;
+            left: 771.19px;
+            width: 277.9px;
+            height: 98.87px;
+        }
+
+        .greenscreen-div,
+        .rectangle-div {
+            position: absolute;
+            top: 2.39px;
+            left: 1.78px;
+            background-color: #1ed900;
+            width: 117.69px;
+            height: 69.06px;
+            transform: rotate(-0.38deg);
+            transform-origin: 0 0;
+            opacity: 0.5;
+        }
+
+        .greenscreen-div {
+            top: 0.81px;
+            left: 0;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(4px);
+            width: 121.23px;
+            height: 72.24px;
+        }
+
+        .green-screen-div {
+            position: absolute;
+            top: 624.49px;
+            left: 399.65px;
+            width: 121.71px;
+            height: 73.05px;
+        }
+
+        .black-screen-div {
+            position: absolute;
+            top: calc(50% - 198.83px);
+            left: calc(50% - -56.19px);
+            border-radius: 4px;
+            background-color: #000;
+            border: 10px solid #000;
+            box-sizing: border-box;
+            width: 267.02px;
+            height: 110.44px;
+            transform: rotate(-0.01deg);
+            transform-origin: 0 0;
+        }
+
+        .main-screen-icon {
+            position: absolute;
+            top: calc(50% - 163.22px);
+            left: calc(50% - 316.26px);
+            border-radius: 8px;
+            width: 214.5px;
+            height: 144.57px;
+            opacity: 0.5;
+        }
+
+        .desktop-1 {
+            position: relative;
+            background-color: rgb(56, 44, 44);
+            width: 100%;
+            height: 1024px;
+            overflow: hidden;
+        }
+
+footer {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.global-footer {
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    background: linear-gradient(rgb(121, 20, 104), rgb(39, 16, 39), rgb(0, 0, 0));
+}
+
+.image {
+    margin: auto;
+    width: 6%;
+}
+
+.image2 {
+    margin: auto;
+    width: 30%;
+}
+
+
